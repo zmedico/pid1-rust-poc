@@ -11,3 +11,7 @@ async-std = {version = "", features = ["unstable"]}
 async-attributes = ""
 libc = ""
 signal-hook = ""
+
+[dependencies.tokio]
+version = ""
+features = ["full"]
